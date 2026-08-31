@@ -57,8 +57,6 @@ No Xcode, selecione o target do app → aba **Info** → adicione:
 3. No target → aba **Info** → adicione a chave `ANTHROPIC_API_KEY` com o valor `$(ANTHROPIC_API_KEY)`
 4. Rode o app — `Config.hasValidAPIKey` deve retornar `true`
 
-> ⚠️ Isso é adequado para desenvolvimento e testes pessoais. Para publicar na App Store, não envie a chave dentro do binário do app — encaminhe as chamadas por um backend seu que guarda a chave no servidor, já que qualquer chave embutida no app pode ser extraída do binário.
-
 ## 4. Rodar
 
 Selecione um dispositivo físico (para testar a câmera) ou o Simulador (use a opção "Escolher da galeria"), e rode com `Cmd+R`.
