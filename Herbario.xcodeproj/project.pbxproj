@@ -288,6 +288,25 @@
 			productReference = CD36DAB96BA0A6E9FD15F659 /* Herbario.app */;
 			productType = "com.apple.product-type.application";
 		};
+		77386D926BD94570BF6EAD3B /* HerbarioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8A9C5E3B8F6D2A1C9E5F7B3 /* Build configuration list for PBXNativeTarget "HerbarioTests" */;
+			buildPhases = (
+				A1B2C3D4E5F6A7B8C9D0E1F2 /* Sources */,
+				5A6B7C8D9E0F1A2B3C4D5E6F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E7F8A9B0C1D2E3F4A5B6C7D8 /* PBXTargetDependency */,
+			);
+			name = HerbarioTests;
+			packageProductDependencies = (
+			);
+			productName = HerbarioTests;
+			productReference = E5F6A7B8C9D0E1F2A3B4C5D6 /* HerbarioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -327,18 +346,37 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5A6B7C8D9E0F1A2B3C4D5E6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXTargetDependency section */
 		D4E5F6A7B8C9D0E1F2A3B4C5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 60C498E8377C4C26DDBB7BE0 /* Herbario */;
-			targetProxy = E4F5G6A7B8C9D0E1F2A3B4C5 /* PBXContainerItemProxy */;
+			targetProxy = E4F5A6B7C8D9E0F1A2B3C4D5 /* PBXContainerItemProxy */;
+		};
+		E7F8A9B0C1D2E3F4A5B6C7D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60C498E8377C4C26DDBB7BE0 /* Herbario */;
+			targetProxy = F9A0B1C2D3E4F5A6B7C8D9E0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXContainerItemProxy section */
-		E4F5G6A7B8C9D0E1F2A3B4C5 /* PBXContainerItemProxy */ = {
+		E4F5A6B7C8D9E0F1A2B3C4D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D4769DD54DDE44A6EB2B00E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60C498E8377C4C26DDBB7BE0 /* Herbario */;
+			remoteInfo = Herbario;
+		};
+		F9A0B1C2D3E4F5A6B7C8D9E0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 7D4769DD54DDE44A6EB2B00E /* Project object */;
 			proxyType = 1;
@@ -601,7 +639,7 @@
 			};
 			name = Debug;
 		};
-		B2F8D9E3C0G5F7B4D2E0G6C9 /* Release */ = {
+		B2F8D9E3C0A5F7B4D2E0F6C9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = "TEMP_D48C950C-AB44-461B-8294-542D75F183F0" /* Secrets.xcconfig */;
 			buildSettings = {
@@ -648,7 +686,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A1E7C8D2B9F4E6A3C1D9F5B8 /* Debug */,
-				B2F8D9E3C0G5F7B4D2E0G6C9 /* Release */,
+				B2F8D9E3C0A5F7B4D2E0F6C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
