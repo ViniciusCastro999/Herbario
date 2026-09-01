@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		027A2AE753F96E47DE226E50 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32705FE1C4123A557FA5D9F0 /* Theme.swift */; };
+		24366093E9C5CA189C758348 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F9DD314010B809CA3C986C8 /* Assets.xcassets */; };
+		28ABC1F125ECBF88EF88655D /* PhotoCaptureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4A425DCA0A2FB9A25FEF8C /* PhotoCaptureView.swift */; };
+		32AC20E857FE9116DB0151FB /* HerbarioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05CC3F57C0289350E792B42 /* HerbarioApp.swift */; };
+		35A6C5496979D88E85643071 /* HistoryRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCFCDAC59E8EA6722DBFBDF3 /* HistoryRepository.swift */; };
+		4485B6ABD8B840EAAED6301E /* HistoryRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C136F8EEB03A64A33A6B0EDF /* HistoryRowView.swift */; };
+		4964AD8774C16A1B7C7E7CE7 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631439AAE356C98E234363B5 /* NetworkError.swift */; };
+		51D1165A0D208B507C1D2BCE /* ResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E34A5F561F29FDFF1D1478 /* ResultsView.swift */; };
+		5E3352FB8696ADD430E89F54 /* PrimaryButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2024314DC50294CE89DAD05D /* PrimaryButtonStyle.swift */; };
+		62EE050A8CD5FC78663F13FD /* PlantIdentificationServicing.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB57C3232936E66A9E0AA36F /* PlantIdentificationServicing.swift */; };
+		6BF8E6520E6D3486368D7311 /* CameraPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05CBE3CF0B80209E9B9A0305 /* CameraPicker.swift */; };
+		71DEE3C6C57D852F8FE6CC6F /* IdentifyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4CD8CF4ABDFA4A4BC7C1F4 /* IdentifyViewModel.swift */; };
+		7D444A646CAD2D1161C5CBEF /* SavedToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A282F47249CD0FDD55D14421 /* SavedToastView.swift */; };
+		9231F797A8FB22B78091B456 /* OrganPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04444398F7B5A8269EDDDD7 /* OrganPickerView.swift */; };
+		93B150F0F099ABCBDF822632 /* PlantOrgan.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CFC464DE4FC3DF3FDEC9FE /* PlantOrgan.swift */; };
+		9F0FA28313CACF5E8D1AB223 /* PlantIdentificationResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC65F6A758D69A971FD773F /* PlantIdentificationResponse.swift */; };
+		A43BA70C12F4A46A4A02946F /* Color+Herbario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29868411D560FA2DF18C1554 /* Color+Herbario.swift */; };
+		B0150679BACC9F86EBD8A934 /* LoadingOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939B5DFF98C7FAEF0C4299CB /* LoadingOverlay.swift */; };
+		BB1D854743F8CE3F63F93623 /* HistoryDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA30BAEE16184419F27DCAA1 /* HistoryDetailView.swift */; };
+		BBEFEB9ACE0131A348DFE432 /* APIConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE4A262A4C966AFD59C419B /* APIConfig.swift */; };
+		BD2AC054B5653ECD0DCF587F /* IdentificationHistoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FB80E1DA4F1CD988744F61 /* IdentificationHistoryItem.swift */; };
+		C387B0DDF62FA03D369B71F2 /* PlantNetAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D3D2E28FF479EAC028BA19 /* PlantNetAPIService.swift */; };
+		CE3D2BDC5EED08C4427D95F2 /* ScoreBadgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8CD2E212FD8A364430A405 /* ScoreBadgeView.swift */; };
+		CFB752F6BFE0ABD06FCB9504 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0216F2947D7CD028C1D62C /* MainTabView.swift */; };
+		D14088A85CA1741AFC998DE7 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC0569F147CCA1DC9FC19C5 /* HistoryView.swift */; };
+		D5E21D292BEDB6D05EE06E27 /* EmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3198C1FD797D65CC0A5535B /* EmptyStateView.swift */; };
+		E4539404F817C0DEBDEB11FC /* HistoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BF4C80897F751D857F87CA /* HistoryViewModel.swift */; };
+		E48BAF0355BC55A6C5ED20D2 /* ResultRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D925F06896567C0EBCF99A18 /* ResultRowView.swift */; };
+		F5028CC2B21809484AAC3CFB /* IdentifyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3A1D88D3D7E17FF26AD32E /* IdentifyView.swift */; };
+		F980AB9E4580358B45FDE159 /* SwiftDataHistoryRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B121A87DC43639F8EA75E1 /* SwiftDataHistoryRepository.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		05CBE3CF0B80209E9B9A0305 /* CameraPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPicker.swift; sourceTree = "<group>"; };
+		0BC65F6A758D69A971FD773F /* PlantIdentificationResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantIdentificationResponse.swift; sourceTree = "<group>"; };
+		1EE4A262A4C966AFD59C419B /* APIConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConfig.swift; sourceTree = "<group>"; };
+		1F3A1D88D3D7E17FF26AD32E /* IdentifyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdentifyView.swift; sourceTree = "<group>"; };
+		2024314DC50294CE89DAD05D /* PrimaryButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButtonStyle.swift; sourceTree = "<group>"; };
+		29868411D560FA2DF18C1554 /* Color+Herbario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Herbario.swift"; sourceTree = "<group>"; };
+		32705FE1C4123A557FA5D9F0 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		44E34A5F561F29FDFF1D1478 /* ResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsView.swift; sourceTree = "<group>"; };
+		631439AAE356C98E234363B5 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		68B121A87DC43639F8EA75E1 /* SwiftDataHistoryRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDataHistoryRepository.swift; sourceTree = "<group>"; };
+		75FB80E1DA4F1CD988744F61 /* IdentificationHistoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdentificationHistoryItem.swift; sourceTree = "<group>"; };
+		7F9DD314010B809CA3C986C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8F4CD8CF4ABDFA4A4BC7C1F4 /* IdentifyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdentifyViewModel.swift; sourceTree = "<group>"; };
+		939B5DFF98C7FAEF0C4299CB /* LoadingOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingOverlay.swift; sourceTree = "<group>"; };
+		99BF4C80897F751D857F87CA /* HistoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewModel.swift; sourceTree = "<group>"; };
+		A05CC3F57C0289350E792B42 /* HerbarioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HerbarioApp.swift; sourceTree = "<group>"; };
+		A282F47249CD0FDD55D14421 /* SavedToastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedToastView.swift; sourceTree = "<group>"; };
+		A2CFC464DE4FC3DF3FDEC9FE /* PlantOrgan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantOrgan.swift; sourceTree = "<group>"; };
+		AC0216F2947D7CD028C1D62C /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		C136F8EEB03A64A33A6B0EDF /* HistoryRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryRowView.swift; sourceTree = "<group>"; };
+		CB4A425DCA0A2FB9A25FEF8C /* PhotoCaptureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCaptureView.swift; sourceTree = "<group>"; };
+		CB57C3232936E66A9E0AA36F /* PlantIdentificationServicing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantIdentificationServicing.swift; sourceTree = "<group>"; };
+		CCFCDAC59E8EA6722DBFBDF3 /* HistoryRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryRepository.swift; sourceTree = "<group>"; };
+		CD33783B373B82B86889A51F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		CD36DAB96BA0A6E9FD15F659 /* Herbario.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Herbario.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D925F06896567C0EBCF99A18 /* ResultRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultRowView.swift; sourceTree = "<group>"; };
+		E5D3D2E28FF479EAC028BA19 /* PlantNetAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantNetAPIService.swift; sourceTree = "<group>"; };
+		EA30BAEE16184419F27DCAA1 /* HistoryDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryDetailView.swift; sourceTree = "<group>"; };
+		EFC0569F147CCA1DC9FC19C5 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		F04444398F7B5A8269EDDDD7 /* OrganPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrganPickerView.swift; sourceTree = "<group>"; };
+		F3198C1FD797D65CC0A5535B /* EmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyStateView.swift; sourceTree = "<group>"; };
+		FB8CD2E212FD8A364430A405 /* ScoreBadgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreBadgeView.swift; sourceTree = "<group>"; };
+		"TEMP_D48C950C-AB44-461B-8294-542D75F183F0" /* Secrets.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Secrets.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		01F88222066F1954B5A31C5F /* Identify */ = {
+			isa = PBXGroup;
+			children = (
+				05CBE3CF0B80209E9B9A0305 /* CameraPicker.swift */,
+				1F3A1D88D3D7E17FF26AD32E /* IdentifyView.swift */,
+				F04444398F7B5A8269EDDDD7 /* OrganPickerView.swift */,
+				CB4A425DCA0A2FB9A25FEF8C /* PhotoCaptureView.swift */,
+				D925F06896567C0EBCF99A18 /* ResultRowView.swift */,
+				44E34A5F561F29FDFF1D1478 /* ResultsView.swift */,
+			);
+			path = Identify;
+			sourceTree = "<group>";
+		};
+		054FBC58260D14AD95A538D8 /* Herbario */ = {
+			isa = PBXGroup;
+			children = (
+				C60E4310E88530ED09130BF5 /* App */,
+				3D1023E917077A54E06A0FCD /* Models */,
+				713608F10C46AAE7BED8F314 /* Resources */,
+				4AD48748D7B804193E89FE16 /* Services */,
+				19AF241782ED8FEB8ADA7CC6 /* Utilities */,
+				D993E1270344E7373C18C738 /* ViewModels */,
+				D683CB0AB8C511B65F5E7440 /* Views */,
+			);
+			path = Herbario;
+			sourceTree = "<group>";
+		};
+		0D2C053F6CB9C2A6359F7CA1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD36DAB96BA0A6E9FD15F659 /* Herbario.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		19AF241782ED8FEB8ADA7CC6 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				29868411D560FA2DF18C1554 /* Color+Herbario.swift */,
+				32705FE1C4123A557FA5D9F0 /* Theme.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		1BDD4C5051776697DDA4A14F /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				631439AAE356C98E234363B5 /* NetworkError.swift */,
+				CB57C3232936E66A9E0AA36F /* PlantIdentificationServicing.swift */,
+				E5D3D2E28FF479EAC028BA19 /* PlantNetAPIService.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		3A35D9F7C36CCE4A7654DA4D /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				1EE4A262A4C966AFD59C419B /* APIConfig.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		3D1023E917077A54E06A0FCD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				75FB80E1DA4F1CD988744F61 /* IdentificationHistoryItem.swift */,
+				0BC65F6A758D69A971FD773F /* PlantIdentificationResponse.swift */,
+				A2CFC464DE4FC3DF3FDEC9FE /* PlantOrgan.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		43B7C1C7A87B524BC266B60F = {
+			isa = PBXGroup;
+			children = (
+				054FBC58260D14AD95A538D8 /* Herbario */,
+				0D2C053F6CB9C2A6359F7CA1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4AD48748D7B804193E89FE16 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				3A35D9F7C36CCE4A7654DA4D /* Config */,
+				1BDD4C5051776697DDA4A14F /* Network */,
+				D776599003D05CE24A3BB19E /* Persistence */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		713608F10C46AAE7BED8F314 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7F9DD314010B809CA3C986C8 /* Assets.xcassets */,
+				CD33783B373B82B86889A51F /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A9215A89BE0041C9314712A9 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				F3198C1FD797D65CC0A5535B /* EmptyStateView.swift */,
+				939B5DFF98C7FAEF0C4299CB /* LoadingOverlay.swift */,
+				2024314DC50294CE89DAD05D /* PrimaryButtonStyle.swift */,
+				A282F47249CD0FDD55D14421 /* SavedToastView.swift */,
+				FB8CD2E212FD8A364430A405 /* ScoreBadgeView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		BBD0D364D2429FBA6BF2A031 /* History */ = {
+			isa = PBXGroup;
+			children = (
+				EA30BAEE16184419F27DCAA1 /* HistoryDetailView.swift */,
+				C136F8EEB03A64A33A6B0EDF /* HistoryRowView.swift */,
+				EFC0569F147CCA1DC9FC19C5 /* HistoryView.swift */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		C60E4310E88530ED09130BF5 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				A05CC3F57C0289350E792B42 /* HerbarioApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		D683CB0AB8C511B65F5E7440 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AC0216F2947D7CD028C1D62C /* MainTabView.swift */,
+				A9215A89BE0041C9314712A9 /* Components */,
+				BBD0D364D2429FBA6BF2A031 /* History */,
+				01F88222066F1954B5A31C5F /* Identify */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D776599003D05CE24A3BB19E /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				CCFCDAC59E8EA6722DBFBDF3 /* HistoryRepository.swift */,
+				68B121A87DC43639F8EA75E1 /* SwiftDataHistoryRepository.swift */,
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
+		D993E1270344E7373C18C738 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				99BF4C80897F751D857F87CA /* HistoryViewModel.swift */,
+				8F4CD8CF4ABDFA4A4BC7C1F4 /* IdentifyViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		"TEMP_72838E36-D899-43BE-991F-838D4DCF3B13" /* Herbario */ = {
+			isa = PBXGroup;
+			children = (
+				"TEMP_D48C950C-AB44-461B-8294-542D75F183F0" /* Secrets.xcconfig */,
+			);
+			path = Herbario;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		60C498E8377C4C26DDBB7BE0 /* Herbario */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07BB044B8C6429D1583C8B57 /* Build configuration list for PBXNativeTarget "Herbario" */;
+			buildPhases = (
+				8D749217CF397CD644DACFAD /* Sources */,
+				547F61DAA80C3D1084429553 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Herbario;
+			packageProductDependencies = (
+			);
+			productName = Herbario;
+			productReference = CD36DAB96BA0A6E9FD15F659 /* Herbario.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7D4769DD54DDE44A6EB2B00E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = 63F66EB85FA84AC14FFDE94E /* Build configuration list for PBXProject "Herbario" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 43B7C1C7A87B524BC266B60F;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 0D2C053F6CB9C2A6359F7CA1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				60C498E8377C4C26DDBB7BE0 /* Herbario */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		547F61DAA80C3D1084429553 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24366093E9C5CA189C758348 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D749217CF397CD644DACFAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBEFEB9ACE0131A348DFE432 /* APIConfig.swift in Sources */,
+				6BF8E6520E6D3486368D7311 /* CameraPicker.swift in Sources */,
+				A43BA70C12F4A46A4A02946F /* Color+Herbario.swift in Sources */,
+				D5E21D292BEDB6D05EE06E27 /* EmptyStateView.swift in Sources */,
+				32AC20E857FE9116DB0151FB /* HerbarioApp.swift in Sources */,
+				BB1D854743F8CE3F63F93623 /* HistoryDetailView.swift in Sources */,
+				35A6C5496979D88E85643071 /* HistoryRepository.swift in Sources */,
+				4485B6ABD8B840EAAED6301E /* HistoryRowView.swift in Sources */,
+				D14088A85CA1741AFC998DE7 /* HistoryView.swift in Sources */,
+				E4539404F817C0DEBDEB11FC /* HistoryViewModel.swift in Sources */,
+				BD2AC054B5653ECD0DCF587F /* IdentificationHistoryItem.swift in Sources */,
+				F5028CC2B21809484AAC3CFB /* IdentifyView.swift in Sources */,
+				71DEE3C6C57D852F8FE6CC6F /* IdentifyViewModel.swift in Sources */,
+				B0150679BACC9F86EBD8A934 /* LoadingOverlay.swift in Sources */,
+				CFB752F6BFE0ABD06FCB9504 /* MainTabView.swift in Sources */,
+				4964AD8774C16A1B7C7E7CE7 /* NetworkError.swift in Sources */,
+				9231F797A8FB22B78091B456 /* OrganPickerView.swift in Sources */,
+				28ABC1F125ECBF88EF88655D /* PhotoCaptureView.swift in Sources */,
+				9F0FA28313CACF5E8D1AB223 /* PlantIdentificationResponse.swift in Sources */,
+				62EE050A8CD5FC78663F13FD /* PlantIdentificationServicing.swift in Sources */,
+				C387B0DDF62FA03D369B71F2 /* PlantNetAPIService.swift in Sources */,
+				93B150F0F099ABCBDF822632 /* PlantOrgan.swift in Sources */,
+				5E3352FB8696ADD430E89F54 /* PrimaryButtonStyle.swift in Sources */,
+				E48BAF0355BC55A6C5ED20D2 /* ResultRowView.swift in Sources */,
+				51D1165A0D208B507C1D2BCE /* ResultsView.swift in Sources */,
+				7D444A646CAD2D1161C5CBEF /* SavedToastView.swift in Sources */,
+				CE3D2BDC5EED08C4427D95F2 /* ScoreBadgeView.swift in Sources */,
+				F980AB9E4580358B45FDE159 /* SwiftDataHistoryRepository.swift in Sources */,
+				027A2AE753F96E47DE226E50 /* Theme.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		798A2554F38E994CCFE7CC66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Herbario/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.portfolio.herbario;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		84913A2C5407D7193F45B6D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Herbario/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.portfolio.herbario;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		9EE0B9F92D6C7DB2C3F155EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = "TEMP_D48C950C-AB44-461B-8294-542D75F183F0" /* Secrets.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D5DF70FCA97FD90AE40C7C1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = "TEMP_D48C950C-AB44-461B-8294-542D75F183F0" /* Secrets.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07BB044B8C6429D1583C8B57 /* Build configuration list for PBXNativeTarget "Herbario" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84913A2C5407D7193F45B6D3 /* Debug */,
+				798A2554F38E994CCFE7CC66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		63F66EB85FA84AC14FFDE94E /* Build configuration list for PBXProject "Herbario" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5DF70FCA97FD90AE40C7C1E /* Debug */,
+				9EE0B9F92D6C7DB2C3F155EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7D4769DD54DDE44A6EB2B00E /* Project object */;
+}

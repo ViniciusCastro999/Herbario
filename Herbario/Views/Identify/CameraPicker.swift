@@ -1,17 +1,23 @@
+//
+//  CameraPicker.swift
+//  Herbario
+//
+//  PhotosPicker (PhotosUI) cobre a galeria, mas para captura direta
+//  da câmera ainda precisamos do UIImagePickerController via
+//  UIViewControllerRepresentable.
+//
+
 import SwiftUI
 import UIKit
 
-/// Wraps UIImagePickerController so SwiftUI can present the native camera.
-/// (PhotosPicker, used for the library, doesn't support live camera capture.)
 struct CameraPicker: UIViewControllerRepresentable {
-    @Binding var image: UIImage?
+    var onImagePicked: (UIImage) -> Void
     @Environment(\.dismiss) private var dismiss
 
     func makeUIViewController(context: Context) -> UIImagePickerController {
         let picker = UIImagePickerController()
         picker.sourceType = .camera
         picker.delegate = context.coordinator
-        picker.allowsEditing = false
         return picker
     }
 
@@ -28,12 +34,9 @@ struct CameraPicker: UIViewControllerRepresentable {
             self.parent = parent
         }
 
-        func imagePickerController(
-            _ picker: UIImagePickerController,
-            didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey: Any]
-        ) {
+        func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey: Any]) {
             if let image = info[.originalImage] as? UIImage {
-                parent.image = image
+                parent.onImagePicked(image)
             }
             parent.dismiss()
         }
