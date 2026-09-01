@@ -39,6 +39,16 @@
 		F980AB9E4580358B45FDE159 /* SwiftDataHistoryRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B121A87DC43639F8EA75E1 /* SwiftDataHistoryRepository.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		4FAE15DF30468391007A8162 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D4769DD54DDE44A6EB2B00E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60C498E8377C4C26DDBB7BE0;
+			remoteInfo = Herbario;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		05CBE3CF0B80209E9B9A0305 /* CameraPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPicker.swift; sourceTree = "<group>"; };
 		0BC65F6A758D69A971FD773F /* PlantIdentificationResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantIdentificationResponse.swift; sourceTree = "<group>"; };
@@ -48,6 +58,7 @@
 		29868411D560FA2DF18C1554 /* Color+Herbario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Herbario.swift"; sourceTree = "<group>"; };
 		32705FE1C4123A557FA5D9F0 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		44E34A5F561F29FDFF1D1478 /* ResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsView.swift; sourceTree = "<group>"; };
+		4FAE15DB30468391007A8162 /* HerbarioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HerbarioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		631439AAE356C98E234363B5 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
 		68B121A87DC43639F8EA75E1 /* SwiftDataHistoryRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDataHistoryRepository.swift; sourceTree = "<group>"; };
 		75FB80E1DA4F1CD988744F61 /* IdentificationHistoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdentificationHistoryItem.swift; sourceTree = "<group>"; };
@@ -64,7 +75,7 @@
 		CB57C3232936E66A9E0AA36F /* PlantIdentificationServicing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantIdentificationServicing.swift; sourceTree = "<group>"; };
 		CCFCDAC59E8EA6722DBFBDF3 /* HistoryRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryRepository.swift; sourceTree = "<group>"; };
 		CD33783B373B82B86889A51F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		CD36DAB96BA0A6E9FD15F659 /* Herbario.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Herbario.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD36DAB96BA0A6E9FD15F659 /* Herbario.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Herbario.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D925F06896567C0EBCF99A18 /* ResultRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultRowView.swift; sourceTree = "<group>"; };
 		E5D3D2E28FF479EAC028BA19 /* PlantNetAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantNetAPIService.swift; sourceTree = "<group>"; };
 		EA30BAEE16184419F27DCAA1 /* HistoryDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryDetailView.swift; sourceTree = "<group>"; };
@@ -74,6 +85,24 @@
 		FB8CD2E212FD8A364430A405 /* ScoreBadgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreBadgeView.swift; sourceTree = "<group>"; };
 		"TEMP_34936BD4-1B7A-4836-AC94-00FB90458D7D" /* Secrets.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Secrets.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		4FAE15DC30468391007A8162 /* HerbarioTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = HerbarioTests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4FAE15D830468391007A8162 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		01F88222066F1954B5A31C5F /* Identify */ = {
@@ -107,6 +136,7 @@
 			isa = PBXGroup;
 			children = (
 				CD36DAB96BA0A6E9FD15F659 /* Herbario.app */,
+				4FAE15DB30468391007A8162 /* HerbarioTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -152,7 +182,9 @@
 			isa = PBXGroup;
 			children = (
 				054FBC58260D14AD95A538D8 /* Herbario */,
+				4FAE15DC30468391007A8162 /* HerbarioTests */,
 				0D2C053F6CB9C2A6359F7CA1 /* Products */,
+				4FAE15D63046834A007A8162 /* Recovered References */,
 			);
 			sourceTree = "<group>";
 		};
@@ -164,6 +196,14 @@
 				D776599003D05CE24A3BB19E /* Persistence */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		4FAE15D63046834A007A8162 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				"TEMP_34936BD4-1B7A-4836-AC94-00FB90458D7D" /* Secrets.xcconfig */,
+			);
+			name = "Recovered References";
 			sourceTree = "<group>";
 		};
 		713608F10C46AAE7BED8F314 /* Resources */ = {
@@ -234,17 +274,32 @@
 			path = ViewModels;
 			sourceTree = "<group>";
 		};
-		"TEMP_B683374E-CC3E-435B-8926-4A430F3B7267" /* Herbario */ = {
-			isa = PBXGroup;
-			children = (
-				"TEMP_34936BD4-1B7A-4836-AC94-00FB90458D7D" /* Secrets.xcconfig */,
-			);
-			path = Herbario;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		4FAE15DA30468391007A8162 /* HerbarioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FAE15E330468391007A8162 /* Build configuration list for PBXNativeTarget "HerbarioTests" */;
+			buildPhases = (
+				4FAE15D730468391007A8162 /* Sources */,
+				4FAE15D830468391007A8162 /* Frameworks */,
+				4FAE15D930468391007A8162 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4FAE15E030468391007A8162 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				4FAE15DC30468391007A8162 /* HerbarioTests */,
+			);
+			name = HerbarioTests;
+			packageProductDependencies = (
+			);
+			productName = HerbarioTests;
+			productReference = 4FAE15DB30468391007A8162 /* HerbarioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		60C498E8377C4C26DDBB7BE0 /* Herbario */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 07BB044B8C6429D1583C8B57 /* Build configuration list for PBXNativeTarget "Herbario" */;
@@ -270,8 +325,13 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
+				LastSwiftUpdateCheck = 2660;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
+					4FAE15DA30468391007A8162 = {
+						CreatedOnToolsVersion = 26.6;
+						TestTargetID = 60C498E8377C4C26DDBB7BE0;
+					};
 				};
 			};
 			buildConfigurationList = 63F66EB85FA84AC14FFDE94E /* Build configuration list for PBXProject "Herbario" */;
@@ -289,11 +349,19 @@
 			projectRoot = "";
 			targets = (
 				60C498E8377C4C26DDBB7BE0 /* Herbario */,
+				4FAE15DA30468391007A8162 /* HerbarioTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		4FAE15D930468391007A8162 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		547F61DAA80C3D1084429553 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -305,6 +373,13 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		4FAE15D730468391007A8162 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8D749217CF397CD644DACFAD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -343,7 +418,73 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		4FAE15E030468391007A8162 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60C498E8377C4C26DDBB7BE0 /* Herbario */;
+			targetProxy = 4FAE15DF30468391007A8162 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		4FAE15E130468391007A8162 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = viniciusCastro999.HerbarioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Herbario.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Herbario";
+			};
+			name = Debug;
+		};
+		4FAE15E230468391007A8162 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = viniciusCastro999.HerbarioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Herbario.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Herbario";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		798A2554F38E994CCFE7CC66 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -515,6 +656,15 @@
 			buildConfigurations = (
 				84913A2C5407D7193F45B6D3 /* Debug */,
 				798A2554F38E994CCFE7CC66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4FAE15E330468391007A8162 /* Build configuration list for PBXNativeTarget "HerbarioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FAE15E130468391007A8162 /* Debug */,
+				4FAE15E230468391007A8162 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
