@@ -289,6 +289,7 @@
 			projectRoot = "";
 			targets = (
 				60C498E8377C4C26DDBB7BE0 /* Herbario */,
+				77386D926BD94570BF6EAD3B /* HerbarioTests */,
 			);
 		};
 /* End PBXProject section */
