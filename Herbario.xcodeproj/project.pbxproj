@@ -164,7 +164,7 @@
 			isa = PBXGroup;
 			children = (
 				054FBC58260D14AD95A538D8 /* Herbario */,
-				TEMP_HERBARIO_TESTS /* HerbarioTests */,
+				D4E5F6A7B8C9D0E1F2A3B4C5 /* HerbarioTests */,
 				0D2C053F6CB9C2A6359F7CA1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -255,7 +255,7 @@
 			path = Herbario;
 			sourceTree = "<group>";
 		};
-		TEMP_HERBARIO_TESTS /* HerbarioTests */ = {
+		D4E5F6A7B8C9D0E1F2A3B4C5 /* HerbarioTests */ = {
 			isa = PBXGroup;
 			children = (
 				84B5C6D7E8F9A0B1C2D3E4F5 /* HistoryViewModelTests.swift */,
