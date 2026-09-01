@@ -1,5 +1,5 @@
-# Secrets
-Secrets.xcconfig
+# Secrets (local overrides only)
+/Secrets.xcconfig.local
 
 # Xcode
 .DS_Store
