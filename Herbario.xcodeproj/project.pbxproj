@@ -78,11 +78,11 @@
 		F3198C1FD797D65CC0A5535B /* EmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyStateView.swift; sourceTree = "<group>"; };
 		FB8CD2E212FD8A364430A405 /* ScoreBadgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreBadgeView.swift; sourceTree = "<group>"; };
 		"TEMP_D48C950C-AB44-461B-8294-542D75F183F0" /* Secrets.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Secrets.xcconfig; sourceTree = "<group>"; };
-		84B5C6D7E8F9A0B1C2D3E4F5 /* HistoryViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewModelTests.swift; sourceTree = "<group>"; };
-		95C6D7E8F9A0B1C2D3E4F5A6 /* NetworkErrorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkErrorTests.swift; sourceTree = "<group>"; };
-		A6D7E8F9A0B1C2D3E4F5A0B1 /* PlantIdentificationResponseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantIdentificationResponseTests.swift; sourceTree = "<group>"; };
-		B7E8F9A0B1C2D3E4F5A0B2C3 /* PlantOrganTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantOrganTests.swift; sourceTree = "<group>"; };
-		C8F9A0B1C2D3E4F5A0B2C3D4 /* ThemeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeTests.swift; sourceTree = "<group>"; };
+		84B5C6D7E8F9A0B1C2D3E4F5 /* HistoryViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HerbarioTests/HistoryViewModelTests.swift; sourceTree = SOURCE_ROOT; };
+		95C6D7E8F9A0B1C2D3E4F5A6 /* NetworkErrorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HerbarioTests/NetworkErrorTests.swift; sourceTree = SOURCE_ROOT; };
+		A6D7E8F9A0B1C2D3E4F5A0B1 /* PlantIdentificationResponseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HerbarioTests/PlantIdentificationResponseTests.swift; sourceTree = SOURCE_ROOT; };
+		B7E8F9A0B1C2D3E4F5A0B2C3 /* PlantOrganTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HerbarioTests/PlantOrganTests.swift; sourceTree = SOURCE_ROOT; };
+		C8F9A0B1C2D3E4F5A0B2C3D4 /* ThemeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HerbarioTests/ThemeTests.swift; sourceTree = SOURCE_ROOT; };
 		E5F6A7B8C9D0E1F2A3B4C5D6 /* HerbarioTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = HerbarioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -264,8 +264,8 @@
 				B7E8F9A0B1C2D3E4F5A0B2C3 /* PlantOrganTests.swift */,
 				C8F9A0B1C2D3E4F5A0B2C3D4 /* ThemeTests.swift */,
 			);
-			path = HerbarioTests;
-			sourceTree = SOURCE_ROOT;
+			name = HerbarioTests;
+			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
