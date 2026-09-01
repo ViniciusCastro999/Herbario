@@ -15,6 +15,12 @@ Tire uma foto na hora ou envie da galeria, escolha o órgão da planta (folha, f
 - 🎨 Tab bar e cards em blur translúcido, tema escuro forçado para consistência visual
 - ⚠️ Tratamento de erros de rede, limite de requisições e chave ausente, com opção de tentar de novo
 
+## 📱 Screenshots
+
+<img width="300" height="652" alt="image" src="https://github.com/user-attachments/assets/d3f2a0e3-c6e3-45a3-94db-4b5742033c29" />
+
+<img width="300" height="652" alt="image" src="https://github.com/user-attachments/assets/0390c202-d1ea-4a1f-b899-73c99a52e262" />
+
 ## 🏗️ Arquitetura
 
 Projeto em **MVVM**, com uma camada extra de **Services/Repository** para manter a lógica de negócio testável e independente do SwiftUI:
