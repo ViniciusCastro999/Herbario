@@ -1,4 +1,4 @@
-# 🌿 Herbário
+# Herbário
 
 App iOS nativo (Swift + SwiftUI) para identificação de plantas por foto, usando a API do [PlantNet](https://my.plantnet.org/doc/getting-started/introduction).
 
