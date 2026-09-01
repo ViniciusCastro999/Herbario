@@ -39,6 +39,18 @@
          </BuildableReference>
       </MacroExpansion>
       <Testables>
+         <TestableReference
+            skipped = "NO"
+            parallelizable = "YES"
+            randomExecutionOrdering = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "77386D926BD94570BF6EAD3B"
+               BuildableName = "HerbarioTests.xctest"
+               BlueprintName = "HerbarioTests"
+               ReferencedContainer = "container:Herbario.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
