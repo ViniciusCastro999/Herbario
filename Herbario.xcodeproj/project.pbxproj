@@ -37,11 +37,6 @@
 		E48BAF0355BC55A6C5ED20D2 /* ResultRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D925F06896567C0EBCF99A18 /* ResultRowView.swift */; };
 		F5028CC2B21809484AAC3CFB /* IdentifyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3A1D88D3D7E17FF26AD32E /* IdentifyView.swift */; };
 		F980AB9E4580358B45FDE159 /* SwiftDataHistoryRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B121A87DC43639F8EA75E1 /* SwiftDataHistoryRepository.swift */; };
-		F1E2D3C4B5A69788796F6E5D /* HistoryViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B5C6D7E8F9A0B1C2D3E4F5 /* HistoryViewModelTests.swift */; };
-		E2D3C4B5A69788796F6E5D4C /* NetworkErrorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C6D7E8F9A0B1C2D3E4F5A6 /* NetworkErrorTests.swift */; };
-		D3C4B5A69788796F6E5D4B3A /* PlantIdentificationResponseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D7E8F9A0B1C2D3E4F5A0B1 /* PlantIdentificationResponseTests.swift */; };
-		C4B5A69788796F6E5D4B3A29 /* PlantOrganTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E8F9A0B1C2D3E4F5A0B2C3 /* PlantOrganTests.swift */; };
-		B5A69788796F6E5D4B3A2918 /* ThemeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F9A0B1C2D3E4F5A0B2C3D4 /* ThemeTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -77,13 +72,7 @@
 		F04444398F7B5A8269EDDDD7 /* OrganPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrganPickerView.swift; sourceTree = "<group>"; };
 		F3198C1FD797D65CC0A5535B /* EmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyStateView.swift; sourceTree = "<group>"; };
 		FB8CD2E212FD8A364430A405 /* ScoreBadgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreBadgeView.swift; sourceTree = "<group>"; };
-		"TEMP_D48C950C-AB44-461B-8294-542D75F183F0" /* Secrets.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Secrets.xcconfig; sourceTree = "<group>"; };
-		84B5C6D7E8F9A0B1C2D3E4F5 /* HistoryViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HerbarioTests/HistoryViewModelTests.swift; sourceTree = SOURCE_ROOT; };
-		95C6D7E8F9A0B1C2D3E4F5A6 /* NetworkErrorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HerbarioTests/NetworkErrorTests.swift; sourceTree = SOURCE_ROOT; };
-		A6D7E8F9A0B1C2D3E4F5A0B1 /* PlantIdentificationResponseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HerbarioTests/PlantIdentificationResponseTests.swift; sourceTree = SOURCE_ROOT; };
-		B7E8F9A0B1C2D3E4F5A0B2C3 /* PlantOrganTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HerbarioTests/PlantOrganTests.swift; sourceTree = SOURCE_ROOT; };
-		C8F9A0B1C2D3E4F5A0B2C3D4 /* ThemeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HerbarioTests/ThemeTests.swift; sourceTree = SOURCE_ROOT; };
-		E5F6A7B8C9D0E1F2A3B4C5D6 /* HerbarioTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = HerbarioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		"TEMP_34936BD4-1B7A-4836-AC94-00FB90458D7D" /* Secrets.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Secrets.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -118,7 +107,6 @@
 			isa = PBXGroup;
 			children = (
 				CD36DAB96BA0A6E9FD15F659 /* Herbario.app */,
-				E5F6A7B8C9D0E1F2A3B4C5D6 /* HerbarioTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -164,7 +152,6 @@
 			isa = PBXGroup;
 			children = (
 				054FBC58260D14AD95A538D8 /* Herbario */,
-				D4E5F6A7B8C9D0E1F2A3B4C5 /* HerbarioTests */,
 				0D2C053F6CB9C2A6359F7CA1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -247,24 +234,12 @@
 			path = ViewModels;
 			sourceTree = "<group>";
 		};
-		"TEMP_72838E36-D899-43BE-991F-838D4DCF3B13" /* Herbario */ = {
+		"TEMP_B683374E-CC3E-435B-8926-4A430F3B7267" /* Herbario */ = {
 			isa = PBXGroup;
 			children = (
-				"TEMP_D48C950C-AB44-461B-8294-542D75F183F0" /* Secrets.xcconfig */,
+				"TEMP_34936BD4-1B7A-4836-AC94-00FB90458D7D" /* Secrets.xcconfig */,
 			);
 			path = Herbario;
-			sourceTree = "<group>";
-		};
-		D4E5F6A7B8C9D0E1F2A3B4C5 /* HerbarioTests */ = {
-			isa = PBXGroup;
-			children = (
-				84B5C6D7E8F9A0B1C2D3E4F5 /* HistoryViewModelTests.swift */,
-				95C6D7E8F9A0B1C2D3E4F5A6 /* NetworkErrorTests.swift */,
-				A6D7E8F9A0B1C2D3E4F5A0B1 /* PlantIdentificationResponseTests.swift */,
-				B7E8F9A0B1C2D3E4F5A0B2C3 /* PlantOrganTests.swift */,
-				C8F9A0B1C2D3E4F5A0B2C3D4 /* ThemeTests.swift */,
-			);
-			name = HerbarioTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -287,25 +262,6 @@
 			productName = Herbario;
 			productReference = CD36DAB96BA0A6E9FD15F659 /* Herbario.app */;
 			productType = "com.apple.product-type.application";
-		};
-		77386D926BD94570BF6EAD3B /* HerbarioTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F8A9C5E3B8F6D2A1C9E5F7B3 /* Build configuration list for PBXNativeTarget "HerbarioTests" */;
-			buildPhases = (
-				A1B2C3D4E5F6A7B8C9D0E1F2 /* Sources */,
-				5A6B7C8D9E0F1A2B3C4D5E6F /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E7F8A9B0C1D2E3F4A5B6C7D8 /* PBXTargetDependency */,
-			);
-			name = HerbarioTests;
-			packageProductDependencies = (
-			);
-			productName = HerbarioTests;
-			productReference = E5F6A7B8C9D0E1F2A3B4C5D6 /* HerbarioTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -333,57 +289,9 @@
 			projectRoot = "";
 			targets = (
 				60C498E8377C4C26DDBB7BE0 /* Herbario */,
-				77386D926BD94570BF6EAD3B /* HerbarioTests */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXFrameworksBuildPhase section */
-		B2C3D4E5F6A7B8C9D0E1F2A3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5A6B7C8D9E0F1A2B3C4D5E6F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		D4E5F6A7B8C9D0E1F2A3B4C5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 60C498E8377C4C26DDBB7BE0 /* Herbario */;
-			targetProxy = E4F5A6B7C8D9E0F1A2B3C4D5 /* PBXContainerItemProxy */;
-		};
-		E7F8A9B0C1D2E3F4A5B6C7D8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 60C498E8377C4C26DDBB7BE0 /* Herbario */;
-			targetProxy = F9A0B1C2D3E4F5A6B7C8D9E0 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin PBXContainerItemProxy section */
-		E4F5A6B7C8D9E0F1A2B3C4D5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7D4769DD54DDE44A6EB2B00E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 60C498E8377C4C26DDBB7BE0 /* Herbario */;
-			remoteInfo = Herbario;
-		};
-		F9A0B1C2D3E4F5A6B7C8D9E0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7D4769DD54DDE44A6EB2B00E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 60C498E8377C4C26DDBB7BE0 /* Herbario */;
-			remoteInfo = Herbario;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		547F61DAA80C3D1084429553 /* Resources */ = {
@@ -391,13 +299,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				24366093E9C5CA189C758348 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C3D4E5F6A7B8C9D0E1F2A3B4 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,18 +338,6 @@
 				CE3D2BDC5EED08C4427D95F2 /* ScoreBadgeView.swift in Sources */,
 				F980AB9E4580358B45FDE159 /* SwiftDataHistoryRepository.swift in Sources */,
 				027A2AE753F96E47DE226E50 /* Theme.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A1B2C3D4E5F6A7B8C9D0E1F2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F1E2D3C4B5A69788796F6E5D /* HistoryViewModelTests.swift in Sources */,
-				E2D3C4B5A69788796F6E5D4C /* NetworkErrorTests.swift in Sources */,
-				D3C4B5A69788796F6E5D4B3A /* PlantIdentificationResponseTests.swift in Sources */,
-				C4B5A69788796F6E5D4B3A29 /* PlantOrganTests.swift in Sources */,
-				B5A69788796F6E5D4B3A2918 /* ThemeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -499,7 +388,7 @@
 		};
 		9EE0B9F92D6C7DB2C3F155EC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = "TEMP_D48C950C-AB44-461B-8294-542D75F183F0" /* Secrets.xcconfig */;
+			baseConfigurationReference = "TEMP_34936BD4-1B7A-4836-AC94-00FB90458D7D" /* Secrets.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -556,7 +445,7 @@
 		};
 		D5DF70FCA97FD90AE40C7C1E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = "TEMP_D48C950C-AB44-461B-8294-542D75F183F0" /* Secrets.xcconfig */;
+			baseConfigurationReference = "TEMP_34936BD4-1B7A-4836-AC94-00FB90458D7D" /* Secrets.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -618,49 +507,6 @@
 			};
 			name = Debug;
 		};
-		A1E7C8D2B9F4E6A3C1D9F5B8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = "TEMP_D48C950C-AB44-461B-8294-542D75F183F0" /* Secrets.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.portfolio.HerbarioTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Herbario.app/Herbario";
-			};
-			name = Debug;
-		};
-		B2F8D9E3C0A5F7B4D2E0F6C9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = "TEMP_D48C950C-AB44-461B-8294-542D75F183F0" /* Secrets.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.portfolio.HerbarioTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Herbario.app/Herbario";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -678,15 +524,6 @@
 			buildConfigurations = (
 				D5DF70FCA97FD90AE40C7C1E /* Debug */,
 				9EE0B9F92D6C7DB2C3F155EC /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
-		};
-		F8A9C5E3B8F6D2A1C9E5F7B3 /* Build configuration list for PBXNativeTarget "HerbarioTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A1E7C8D2B9F4E6A3C1D9F5B8 /* Debug */,
-				B2F8D9E3C0A5F7B4D2E0F6C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
