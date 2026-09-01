@@ -23,3 +23,8 @@ jobs:
       run: xcodebuild -project Herbario.xcodeproj -scheme Herbario -configuration Debug -arch arm64 -derivedDataPath build CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO
       env:
         PLANTNET_API_KEY_ENV: ${{ secrets.PLANTNET_API_KEY || 'PLACEHOLDER_KEY' }}
+    
+    - name: Run tests
+      run: xcodebuild -project Herbario.xcodeproj -scheme HerbarioTests -configuration Debug -arch arm64 test -derivedDataPath build CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO
+      env:
+        PLANTNET_API_KEY_ENV: ${{ secrets.PLANTNET_API_KEY || 'PLACEHOLDER_KEY' }}
