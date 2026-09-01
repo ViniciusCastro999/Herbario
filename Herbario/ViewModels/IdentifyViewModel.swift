@@ -20,7 +20,7 @@ final class IdentifyViewModel: ObservableObject {
     }
 
     @Published var selectedOrgan: PlantOrgan = .leaf
-    @Published private(set) var capturedImage: UIImage?
+    @Published var capturedImage: UIImage?
     @Published private(set) var state: ViewState = .idle
     @Published private(set) var results: [SpeciesResult] = []
     @Published var navigateToResults = false
